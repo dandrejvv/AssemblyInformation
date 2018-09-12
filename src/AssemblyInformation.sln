@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInformationX64", "AssemblyInformationApp\AssemblyInformationX64.csproj", "{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInformationX86", "AssemblyInformationApp\AssemblyInformationX86.csproj", "{ED2CFF97-A61C-49EC-ACA4-A1564CD68449}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AssemblyInformationShared", "AssemblyInformationShared\AssemblyInformationShared.shproj", "{74421042-77EC-4A48-8E97-893466E0152F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AssemblyInformationSetupx86", "AssemblyInformationSetup\AssemblyInformationSetupx86.vdproj", "{585BD687-1BFB-41AB-8812-9ADA0F9A03F5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AssemblyInformationSetupX64", "AssemblyInformationSetup\AssemblyInformationSetupX64.vdproj", "{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B60BB5DB-6F23-4318-B6CE-32137DC5586F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{EDAF8E97-68EC-41FD-B40B-AE4E90D37F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x64", "x64", "{BE18AFE0-BBFE-4C31-99D4-1A692F87C173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInformationShellEx", "AssemblyInformationShellEx\AssemblyInformationShellEx.csproj", "{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AssemblyInformationShared\AssemblyInformationShared.projitems*{74421042-77ec-4a48-8e97-893466e0152f}*SharedItemsImports = 13
+		AssemblyInformationShared\AssemblyInformationShared.projitems*{ed2cff97-a61c-49ec-aca4-a1564cd68449}*SharedItemsImports = 4
+		AssemblyInformationShared\AssemblyInformationShared.projitems*{eda25dbf-b43f-4370-bf0c-a680e5ea76d1}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED2CFF97-A61C-49EC-ACA4-A1564CD68449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2CFF97-A61C-49EC-ACA4-A1564CD68449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2CFF97-A61C-49EC-ACA4-A1564CD68449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2CFF97-A61C-49EC-ACA4-A1564CD68449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585BD687-1BFB-41AB-8812-9ADA0F9A03F5}.Debug|Any CPU.ActiveCfg = Debug
+		{585BD687-1BFB-41AB-8812-9ADA0F9A03F5}.Debug|Any CPU.Build.0 = Debug
+		{585BD687-1BFB-41AB-8812-9ADA0F9A03F5}.Release|Any CPU.ActiveCfg = Release
+		{585BD687-1BFB-41AB-8812-9ADA0F9A03F5}.Release|Any CPU.Build.0 = Release
+		{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09}.Debug|Any CPU.ActiveCfg = Debug
+		{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09}.Debug|Any CPU.Build.0 = Debug
+		{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09}.Release|Any CPU.ActiveCfg = Release
+		{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09}.Release|Any CPU.Build.0 = Release
+		{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDA25DBF-B43F-4370-BF0C-A680E5EA76D1} = {BE18AFE0-BBFE-4C31-99D4-1A692F87C173}
+		{ED2CFF97-A61C-49EC-ACA4-A1564CD68449} = {EDAF8E97-68EC-41FD-B40B-AE4E90D37F0E}
+		{74421042-77EC-4A48-8E97-893466E0152F} = {B60BB5DB-6F23-4318-B6CE-32137DC5586F}
+		{585BD687-1BFB-41AB-8812-9ADA0F9A03F5} = {EDAF8E97-68EC-41FD-B40B-AE4E90D37F0E}
+		{9EFA24B0-9AE3-4359-BD84-EF349D1C6C09} = {BE18AFE0-BBFE-4C31-99D4-1A692F87C173}
+		{F28C8AD6-F430-4AFC-B5F6-413F8F9932FB} = {B60BB5DB-6F23-4318-B6CE-32137DC5586F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AFD75BF-804A-45E2-B0DF-0ACA4B616467}
+	EndGlobalSection
+EndGlobal
