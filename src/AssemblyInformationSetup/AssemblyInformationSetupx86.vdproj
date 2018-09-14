@@ -170,7 +170,7 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_46E4D4B7_252B_4237_95FC_22E8AEBAA7D2"
-            "InstallerClass" = "11:TRUE"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_EB081090717942D3B6476D845F70B629"
@@ -184,7 +184,7 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_CB55A965_399A_43FA_864A_F2EC67815011"
-            "InstallerClass" = "11:TRUE"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
         }
@@ -299,7 +299,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -398,7 +398,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Assembly Information v2.1"
         "ProductCode" = "8:{D0B86968-FA94-4643-AEA5-1E3356792310}"
-        "PackageCode" = "8:{D759D03D-8D71-4357-AA2F-2052D67E93EC}"
+        "PackageCode" = "8:{9623A60A-6B7C-4503-BA99-C1B65C3B0F74}"
         "UpgradeCode" = "8:{3652F794-5AEB-44B1-BC51-DDBF09BA0904}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

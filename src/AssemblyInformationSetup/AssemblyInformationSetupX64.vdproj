@@ -64,12 +64,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_007554FD7C5D4ED6B68FCF3507061BDF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1ABBE09FC82245A3834DA84B864E0D36"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -77,6 +71,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_007554FD7C5D4ED6B68FCF3507061BDF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -106,20 +106,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
-                    }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Visual.C++.10.0.x64"
-                    {
-                    "Name" = "8:Visual C++ 2010 Runtime Libraries (x64)"
-                    "ProductCode" = "8:Microsoft.Visual.C++.10.0.x64"
-                    }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
-                    {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
                     }
                 }
             }
@@ -146,24 +136,6 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
-                    }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Visual.C++.10.0.x64"
-                    {
-                    "Name" = "8:Visual C++ 2010 Runtime Libraries (x64)"
-                    "ProductCode" = "8:Microsoft.Visual.C++.10.0.x64"
-                    }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
-                    {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
-                    }
-                }
             }
         }
     }
@@ -182,7 +154,7 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_4DDEB1C6_DE39_480C_B74B_F28564B6FF15"
-            "InstallerClass" = "11:TRUE"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_73750D2A784949F98853F57664D774F0"
@@ -196,7 +168,7 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_EAE28F97_A4A4_4120_A507_F8FE8ABEA12D"
-            "InstallerClass" = "11:TRUE"
+            "InstallerClass" = "11:FALSE"
             "CustomActionData" = "8:"
             }
         }
@@ -214,9 +186,9 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:3.5.21022         "
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
                 "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
             }
         }
@@ -311,7 +283,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -434,7 +406,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Assembly Information v2.1"
         "ProductCode" = "8:{54CFDA1E-F5A1-45BB-8833-F814B90CC288}"
-        "PackageCode" = "8:{90931385-6479-4796-97A0-0C5D8F6C31F3}"
+        "PackageCode" = "8:{A821DEF0-9BF9-4E54-BB68-04E57C247303}"
         "UpgradeCode" = "8:{92FFC3AD-C7D1-4657-B460-89F248CA31CA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

@@ -28,12 +28,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Installer1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Installer1.Designer.cs">
-      <DependentUpon>Installer1.cs</DependentUpon>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Platform.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Program.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resource.Designer.cs">
@@ -51,9 +45,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Installer1.resx">
-      <DependentUpon>Installer1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resource.resx">
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
