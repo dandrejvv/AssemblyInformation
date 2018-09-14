@@ -11,6 +11,7 @@ using System.Windows.Forms;
 namespace AssemblyInformationShellEx
 {
     [ComVisible(true)]
+    [COMServerAssociation(AssociationType.ClassOfExtension, ".exe")]
     [COMServerAssociation(AssociationType.ClassOfExtension, ".dll")]
     public class ShellExtension : SharpContextMenu
     {
