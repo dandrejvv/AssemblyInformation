@@ -27,13 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
-        "OwnerKey" = "8:_1ABBE09FC82245A3834DA84B864E0D36"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
+        "MsmKey" = "8:_AE655BBD318B493322DA84B33990C2B0"
         "OwnerKey" = "8:_FBA3C684D61C4CD3B1D3245F50AC5A86"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,31 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_AE655BBD318B493322DA84B33990C2B0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_FBA3C684D61C4CD3B1D3245F50AC5A86"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F4B190D9217B4FEBA9894EE71B38C24E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_1ABBE09FC82245A3834DA84B864E0D36"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_007554FD7C5D4ED6B68FCF3507061BDF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -136,6 +112,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -198,7 +182,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AssemblyInformationX64, Version=2.1.0.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:AssemblyInformationX64, Version=2.1.1.0, Culture=neutral, processorArchitecture=AMD64"
                 "ScatterAssemblies"
                 {
                     "_007554FD7C5D4ED6B68FCF3507061BDF"
@@ -229,7 +213,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AssemblyInformationShellEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=becceade92964aa6, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AssemblyInformationShellEx, Version=2.1.1.0, Culture=neutral, PublicKeyToken=becceade92964aa6, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_1ABBE09FC82245A3834DA84B864E0D36"
@@ -256,14 +240,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AE655BBD318B493322DA84B33990C2B0"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:SharpShell, Version=2.2.1.0, Culture=neutral, PublicKeyToken=f14dc899472fe6fb, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3F33AD23FA6F7E3ADAFB7F73C330AF0F"
+                    "_AE655BBD318B493322DA84B33990C2B0"
                     {
                     "Name" = "8:SharpShell.DLL"
                     "Attributes" = "3:512"
@@ -291,7 +275,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AssemblyInformation, Version=2.1.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:AssemblyInformation, Version=2.1.1.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
                     "_F4B190D9217B4FEBA9894EE71B38C24E"
@@ -404,20 +388,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Assembly Information v2.1"
-        "ProductCode" = "8:{54CFDA1E-F5A1-45BB-8833-F814B90CC288}"
-        "PackageCode" = "8:{4E640FC1-8A5C-41A6-A8DF-ADF5475CE885}"
+        "ProductName" = "8:Assembly Information v2.1.1"
+        "ProductCode" = "8:{FAE2D504-FF36-4395-A059-C159B2E8981D}"
+        "PackageCode" = "8:{6C470ADA-C47D-47D3-B3E5-789BF7A54C53}"
         "UpgradeCode" = "8:{92FFC3AD-C7D1-4657-B460-89F248CA31CA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.1.0"
+        "ProductVersion" = "8:2.1.1"
         "Manufacturer" = "8:.NET Tools"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/dandrejvv/AssemblyInformation"
-        "Title" = "8:Assembly Information 2.1"
+        "Title" = "8:Assembly Information 2.1.1"
         "Subject" = "8:.NET Tools"
         "ARPCONTACT" = "8:Rotem Bloom & Ashutosh Bhawasinka"
         "Keywords" = "8:.NET Tools"

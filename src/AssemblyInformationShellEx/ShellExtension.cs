@@ -50,7 +50,7 @@ namespace AssemblyInformationShellEx
             const string ApplicationFile = "AssemblyInformation.exe";
             var basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             var fullPath = Path.Combine(basePath, ApplicationFile);
-            var firstSelectedFile = SelectedItemPaths.First();
+            var firstSelectedFile = "\"" + SelectedItemPaths.First() + "\"";
             var processInfo = new ProcessStartInfo(fullPath)
             {
                 Arguments = firstSelectedFile
