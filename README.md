@@ -1,3 +1,5 @@
+**PLEASE NOTE:** I'm no longer working on this. Someone else is more than welcome to fork and run with this.
+
 # .NET Assembly Information
 
 Display .NET Assembly information like:
